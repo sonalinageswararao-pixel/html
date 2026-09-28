@@ -1,0 +1,22 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light ON-OFF</title>
+</head>
+<body>
+    <h1>light ON-OFF</h1>
+    <img id= "lightImage" src="./bulb">
+    <button onclick="turnOn()">turn ON</button>
+    <button onclick="turnOff()">turn OFF</button>
+    <script>
+        function turnOn() {
+            document.getElementById('lightImage').src = "./";
+        }
+         function turnOff(){
+            document.getElementById('lightImage').src = '';
+       }
+    </script>
+</body>
+</html>
